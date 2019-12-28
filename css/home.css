@@ -12,23 +12,24 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 120px;
 }
 
 section img {
-  width: calc(50% - 30px);
-  height: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 section .text {
-  width: calc(50% - 30px);
+  width: calc(100% - 350px);
 }
 
 section .text h1 {
-  font-size: 3em;
+  font-size: 1em;
   font-weight: 400;
   margin-bottom: 16px;
 }
@@ -57,7 +58,9 @@ section .text p {
   }
   section img {
     width: 100%;
-    margin-bottom: 60px;
+    height: auto;
+    margin-bottom: 40px;
+    max-width: 300px;
   }
   section .text {
     width: 100%;

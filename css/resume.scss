@@ -1,10 +1,12 @@
 #title {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 400;
-    margin-bottom: 60px;
+    width: calc(100% - 120px);
+    margin: 0 60px 60px 60px;
 }
 section {
-    width: 100%;
+    width: calc(100% - 120px);
+    margin: 0 60px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -14,7 +16,7 @@ section {
         width: 25%;
         margin-right: 5%;
         h1 {
-            font-size: 1.75em;
+            font-size: 1.5em;
             font-weight: 400;
             margin-bottom: 10px;
         }
@@ -50,20 +52,11 @@ section {
 }
 hr {
     border: .5px solid black;
-    margin: 50px 0;
+    width: calc(100% - 120px);
+    margin: 50px 60px;
 }
 #wrap {
     padding: 180px 0;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 1150px) {
-    #wrap {
-        width: calc(100% - 80px);
-        margin: 0 40px;
-    }
 }
 @media screen and (max-width: 900px) {
     section {

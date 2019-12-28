@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'proxima-nova';
+    font-family: 'neue-haas-grotesk-display';
+    letter-spacing: .015em;
 }
 
 a {
@@ -13,19 +14,27 @@ html {
     overflow-x: hidden;
     font-size: 16px;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 #header {
     position: fixed;
     width: 100%;
+    max-width: 1200px;
     height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     backdrop-filter: blur(20px);
+    margin: 0 auto;
     .logo {
         height: 46px;
-        margin-left: 40px;
+        margin-left: 60px;
     }
     .links {
         display: flex;
@@ -39,6 +48,7 @@ html {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            /**
             .dot {
                 position: absolute;
                 margin-top: 20px;
@@ -52,7 +62,7 @@ html {
             }
             &:hover .dot {
                 transform: scale(1);
-            }
+            }8**/
         }
         .selected {
             opacity: .5;

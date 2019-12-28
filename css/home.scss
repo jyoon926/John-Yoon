@@ -5,16 +5,17 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 120px;
     img {
-        width: calc(50% - 30px);
-        height: auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
     }
     .text {
-        width: calc(50% - 30px);
+        width: calc(100% - 350px);
         h1 {
-            font-size: 3em;
+            font-size: 1em;
             font-weight: 400;
             margin-bottom: 16px;
         }
@@ -36,7 +37,9 @@ section {
         margin-bottom: 120px;
         img {
             width: 100%;
-            margin-bottom: 60px;
+            height: auto;
+            margin-bottom: 40px;
+            max-width: 300px;
         }
         .text {
             width: 100%;
