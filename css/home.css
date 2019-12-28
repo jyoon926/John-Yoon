@@ -1,7 +1,12 @@
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
 section {
+  height: calc(100vh - 180px);
   width: calc(100% - 120px);
-  margin: 0 60px;
-  padding-top: 180px;
+  padding: 120px 60px 60px 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,65 +14,73 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 120px;
-}
-
-section img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
 }
 
 section .text {
-  width: calc(100% - 350px);
-}
-
-section .text h1 {
-  font-size: 1em;
-  font-weight: 400;
-  margin-bottom: 16px;
+  margin-right: 60px;
 }
 
 section .text p {
   line-height: 1.5;
-  margin-bottom: 16px;
 }
 
-@media screen and (max-width: 1000px) {
+section img {
+  height: 100%;
+}
+
+@media screen and (max-width: 1250px) {
   section {
-    width: calc(100% - 120px);
-    margin: 0 60px;
-    padding-top: 180px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 120px;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: auto;
   }
   section img {
     width: 100%;
+    max-width: 400px;
     height: auto;
-    margin-bottom: 40px;
-    max-width: 300px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    height: calc(100vh - 90px);
+    width: calc(100% - 60px);
+    padding: 120px 30px 30px 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+  }
+  section img {
+    width: 400px;
+    margin-bottom: 60px;
   }
   section .text {
-    width: 100%;
+    margin-right: 0;
   }
-  section .text p {
-    line-height: 1.5;
-    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 460px) {
+  section img {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=home.css.map */

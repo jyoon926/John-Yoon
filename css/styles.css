@@ -34,8 +34,7 @@ body {
 #header {
   position: fixed;
   width: 100%;
-  max-width: 1200px;
-  height: 100px;
+  height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,14 +48,17 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  background: white;
   margin: 0 auto;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
 }
 
 #header .logo {
-  height: 46px;
+  height: 40px;
   margin-left: 60px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
 }
 
 #header .links {
@@ -110,11 +112,5 @@ body {
 
 #header .links .selected {
   opacity: .5;
-}
-
-#wrap {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 /*# sourceMappingURL=styles.css.map */
