@@ -12,8 +12,8 @@
 }
 
 #photos {
-  width: calc(100% - 100px);
-  margin: 0 50px;
+  width: calc(100% - 120px);
+  margin: 0 60px;
   line-height: 0;
   display: inline-block;
   -webkit-column-count: 4;
@@ -33,8 +33,6 @@
   #photos {
     -webkit-column-count: 3;
             column-count: 3;
-    width: calc(100% - 60px);
-    margin: 0 30px;
   }
 }
 
@@ -58,9 +56,9 @@
     width: calc(100% - 60px);
     margin: 0 30px 30px 30px;
   }
-  .photos {
-    width: calc(100% - 40px);
-    margin: 0 20px;
+  #photos {
+    width: calc(100% - 60px) !important;
+    margin: 0 30px !important;
   }
 }
 /*# sourceMappingURL=photography.css.map */
