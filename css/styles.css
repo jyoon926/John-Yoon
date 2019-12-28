@@ -229,4 +229,10 @@ body {
 ::-webkit-scrollbar-thumb {
   background: black;
 }
+
+footer {
+  font-size: 15px;
+  margin: 20px 0;
+  opacity: .5;
+}
 /*# sourceMappingURL=styles.css.map */
