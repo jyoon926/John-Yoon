@@ -16,11 +16,14 @@
     display: inline-block;
     column-count: 4;
     column-gap: 20px;
+    div {
+        background: #ddd;
+    }
     img {
         margin-bottom: 20px;
         vertical-align: middle;
         width: 100% !important;
-        height: auto !important
+        height: auto !important;
     }
 }
 @media screen and (max-width: 1450px) {

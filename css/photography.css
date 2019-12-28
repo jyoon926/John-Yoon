@@ -22,6 +22,10 @@
           column-gap: 20px;
 }
 
+#photos div {
+  background: #ddd;
+}
+
 #photos img {
   margin-bottom: 20px;
   vertical-align: middle;
