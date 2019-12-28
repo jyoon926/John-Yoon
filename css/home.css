@@ -44,9 +44,6 @@ section .text p {
 }
 
 section .text a {
-  background: black;
-  color: white;
-  padding: 12px 26px;
   margin-top: 40px;
 }
 

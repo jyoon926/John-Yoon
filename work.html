@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>John Yoon | Work</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="https://use.typekit.net/fxc2rul.css">
     <link rel="icon" href="img/Favicon.png">
 </head>
@@ -15,11 +15,11 @@
         <a href="https://john-yoon.com/"><img id="logo" class="logo" src="img/John-Logo.png" alt=""></a>
         <input type="checkbox" id="checkbox" class="checkbox">
         <label for="checkbox" class="menu-icon"><img src="img/menu.svg" alt=""></label>
-        <div class="links">
+        <div class="links" id="links">
             <a href="https://john-yoon.com/">Home<div class="dot"></div></a>
             <a href="resume.html">Resume<div class="dot"></div></a class="selected">
             <a class="selected" href="work.html">Work<div class="dot"></div></a>
-            <a href="">Photography<div class="dot"></div></a>
+            <a href="photography.html">Photography<div class="dot"></div></a>
             <a class="mail" href="mailto:jy567@cornell.edu">Contact<div class="dot"></div></a>
             <label for="checkbox" class="x-icon"><img src="img/x.svg" alt=""></label>
         </div>
@@ -29,63 +29,68 @@
         <h1 id="title">Work</h1>
         <section>
             <div class="title">
-                <h1>Education</h1>
+                <h1>Do Not Disturb</h1>
             </div>
             <div class="description">
-                <p><b>Cornell University</b> - B.A. in Comparative Literature. Graduating in May 2020.</p>
-                <p><b>Free University of Berlin</b> - German Literature. Semester abroad.</p>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <div class="title">
-                <h1>Experience</h1>
-            </div>
-            <div class="description">
-                <p><a href="http://www.stateofthepod.com/" target="none">State of the Pod</a> - Producer and Member Education Director (Sep 2019–Present).</p>
-                <p><a href="https://cornellsun.com/author/johnyoon/" target="none">Cornell Daily Sun</a> - Senior Writer (Aug 2016–Aug 2019). Assistant News Editor (Mar 2017–Feb 2018).</p>
-                <p><b>WRFI Radio</b> - News Reporter (Sep 2018–Feb 2019).</p>
-                <p><b>Ithaca Journal</b> - Reporting Intern (summer 2015)</p>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <div class="title">
-                <h1>Skills</h1>
-            </div>
-            <div class="description description-with-col">
-                <div class="col1">
-                    <p>Korean (fluent)</p>
-                    <p>German (level C1)</p>
-                    <p>Adobe Audition, Photoshop, Lightroom, InDesign</p>
-                </div>
-                <div class="col2">
-                    <p>Avid Pro Tools</p>
-                    <p>Hindenburg</p>
-                    <p>WordPress</p>
+                <p>Co-produced with Yunyun Wang, a 20-minute feature for Cornell’s student-driven podcast State of the Pod on the Ithaca Police Department’s use of technology and current debates around data privacy.</p>
+                <audio ontimeupdate="initProgressBar()">
+                    <source src="http://www.stateofthepod.com/wp-content/uploads/2019/12/Do-Not-Disturb-John-and-Yunyun.mp3" type="audio/mp3">
+                </audio>
+                <div class="player">
+                    <div class="play"><img class="playbtn" src="img/play.svg" alt=""></div>
+                    <div class="cont">
+                        <div class="t">
+                            <p class="name">Do Not Disturb - State of the Pod</p>
+                            <p class="author">John Yoon and Yunyun Yang</p>
+                        </div>
+                        <div class="cont">
+                            <div class="progress" id="progress" value="0" max="1"></div>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="current">0:00</p><p> / 20:23</p>
+                    </div>
                 </div>
             </div>
         </section>
         <hr>
         <section>
             <div class="title">
-                <h1>Awards</h1>
-                <h2>at Cornell University</h2>
+                <h1>Can standardized testing improve teachers?</h1>
             </div>
             <div class="description">
-                <p>Dean’s List all semesters</p>
-                <p>Goethe German Essay Writing Prize Winner (April 2019)</p>
+                <p>A report for WRFI Radio on a bill in the New York State Legislature in January 2019 detaching public school students’ scores on state tests from the way teachers are evaluated for hiring and promotion.</p>
+                <a href="https://www.wrfi.org/2019/02/23/can-standardized-testing-improve-teachers-audio/" target="none" class="button">Listen</a>
             </div>
         </section>
         <hr>
         <section>
             <div class="title">
-                <h1>Community Involvement</h1>
-                <h2>at Cornell University</h2>
+                <h1>Cornell Law Review elected new executive editors — and they’re all women</h1>
             </div>
             <div class="description">
-                <p><b>Von Cramm Cooperative Hall</b> President</p>
-                <p><b>Cornell Outdoor Education</b> Backpacking and Rock Climbing Guide</p>
+                <p>Reporting for WRFI Radio on the first time that the Cornell Law Review elected an all-woman executive board.</p>
+                <a href="https://grape-maroon-e9jk.squarespace.com/Women%20now%20lead%20the%20Cornell%20Law%20Review%20for%20the%20first%20time%20in%20the%20publication%E2%80%99s%20history." target="none" class="button">Listen</a>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="title">
+                <h1>How Cesar Chavez inspired Cornell’s Farmworker Program</h1>
+            </div>
+            <div class="description">
+                <p>Director of Cornell Farmworker Program Mary Jo Dudley spoke me about immigrant rights, volunteership, and social change in an interview for WRFI Radio’s Your Morning.</p>
+                <a href="https://www.wrfi.org/2019/02/15/mary-jo-dudley-talks-about-challenges-of-migrant-workers/" target="none" class="button">Listen</a>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="title">
+                <h1>News Reporting for The Cornell Daily Sun</h1>
+            </div>
+            <div class="description">
+                <p>The work I did for The Sun can be found on my author page on the Sun’s website.</p>
+                <a href="https://cornellsun.com/author/johnyoon/" target="none" class="button">View</a>
             </div>
         </section>
     </div>

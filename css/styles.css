@@ -34,6 +34,18 @@ body {
           align-items: center;
 }
 
+.button {
+  background: black;
+  color: white;
+  padding: 12px 26px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.button:hover {
+  background: #333;
+}
+
 #header {
   position: fixed;
   width: 100%;
@@ -59,7 +71,7 @@ body {
 }
 
 #header .logo {
-  height: 40px;
+  height: 50px;
   margin-left: 60px;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
@@ -81,6 +93,8 @@ body {
           justify-content: space-between;
   width: 550px;
   margin-right: 60px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
 }
 
 #header .links a {
