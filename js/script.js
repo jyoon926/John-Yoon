@@ -24,6 +24,7 @@ function scrollFunction() {
 
 //Audio Player
 jQuery(document).ready(function(){
+    $('#img1').attr("src", "img/John-Yoon-1.jpg");
     var aud = $('audio')[0];
     var play = $('.play');
     var progess = $('.progress');
