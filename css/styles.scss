@@ -99,12 +99,13 @@ body {
             justify-content: flex-start;
             align-items: flex-start;
             box-sizing: border-box;
-            padding: 60px;
+            padding: 30px;
             transition-duration: .3s;
             z-index: 11;
             a {
                 font-size: 40px;
-                line-height: 1.75;
+                line-height: 1;
+                margin-bottom: 20px;
             }
             .x-icon {
                 display: block;

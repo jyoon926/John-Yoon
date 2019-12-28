@@ -153,14 +153,15 @@ body {
             align-items: flex-start;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 60px;
+    padding: 30px;
     -webkit-transition-duration: .3s;
             transition-duration: .3s;
     z-index: 11;
   }
   #header .links a {
     font-size: 40px;
-    line-height: 1.75;
+    line-height: 1;
+    margin-bottom: 20px;
   }
   #header .links .x-icon {
     display: block;
