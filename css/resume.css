@@ -5,7 +5,7 @@
 }
 
 #title {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 400;
   width: calc(100% - 120px);
   margin: 0 60px 60px 60px;
@@ -83,17 +83,22 @@ section .description-with-col .col2 {
 }
 
 hr {
-  border: .5px solid black;
+  border: 1px solid black;
   width: calc(100% - 120px);
   margin: 50px 60px;
 }
 
 #wrap {
-  padding: 180px 0;
+  padding: 140px 0;
 }
 
 @media screen and (max-width: 900px) {
+  #title {
+    width: calc(100% - 60px);
+    margin: 0 30px 30px 30px;
+  }
   section {
+    margin: 0 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -124,6 +129,10 @@ hr {
   }
   section .description-with-col .col2 {
     width: 100%;
+  }
+  hr {
+    width: calc(100% - 60px);
+    margin: 50px 30px;
   }
 }
 /*# sourceMappingURL=resume.css.map */
