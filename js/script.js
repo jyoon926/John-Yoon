@@ -7,10 +7,18 @@ function scrollFunction() {
         document.getElementById("header").style.height = "60px";
         document.getElementById("textlogo").style.opacity = "1";
         document.getElementById("logo").style.opacity = "0";
+        $('.dot').css("margin-top", '17px');
+        $('.dot').css("height", '4px');
+        $('.dot').css("width", '4px');
+        $('.dot').css("border-radius", '2px');
     } else {
         document.getElementById("header").style.height = "120px";
         document.getElementById("textlogo").style.opacity = "0";
         document.getElementById("logo").style.opacity = "1";
+        $('.dot').css("margin-top", '20px');
+        $('.dot').css("height", '5px');
+        $('.dot').css("width", '5px');
+        $('.dot').css("border-radius", '2.5px');
     }
 }
 
