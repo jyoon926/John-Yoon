@@ -75,6 +75,18 @@ body {
   margin-left: 60px;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
+  opacity: 1;
+}
+
+#header #textlogo {
+  font-size: 1em;
+  margin-left: 60px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -38px;
+  opacity: 0;
 }
 
 #header .links {
@@ -149,6 +161,9 @@ body {
 
 @media screen and (max-width: 900px) {
   #header .logo {
+    margin-left: 30px;
+  }
+  #header #textlogo {
     margin-left: 30px;
   }
   #header .links {
