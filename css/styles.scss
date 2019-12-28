@@ -14,6 +14,7 @@ a {
 html {
     overflow-x: hidden;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 body {
     display: flex;
@@ -106,6 +107,9 @@ body {
                 font-size: 40px;
                 line-height: 1;
                 margin-bottom: 20px;
+                .dot {
+                    display: none;
+                }
             }
             .x-icon {
                 display: block;
@@ -129,4 +133,12 @@ body {
             left: 0;
         }
     }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: black;
 }
