@@ -23,7 +23,6 @@ function scrollFunction() {
 }
 
 //Audio Player
-//Audio Player
 jQuery(document).ready(function(){
     var aud = $('audio')[0];
     var play = $('.play1');
