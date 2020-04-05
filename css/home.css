@@ -4,7 +4,7 @@
 }
 
 section {
-  height: calc(100vh - 180px);
+  height: auto;
   width: calc(100% - 120px);
   padding: 120px 60px 60px 60px;
   display: -webkit-box;
@@ -48,11 +48,10 @@ section .text a {
 }
 
 section img {
-  height: auto;
-  width: auto;
+  height: 100%;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1400px) {
   section {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

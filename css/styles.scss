@@ -102,6 +102,10 @@ body {
         display: none;
     }
 }
+#wrap {
+    min-height: calc(100vh - 64px);
+    box-sizing: border-box;
+}
 footer {
     font-size: 15px;
     display: flex;

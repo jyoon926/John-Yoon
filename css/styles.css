@@ -159,6 +159,12 @@ body {
   display: none;
 }
 
+#wrap {
+  min-height: calc(100vh - 64px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 footer {
   font-size: 15px;
   display: -webkit-box;
