@@ -1,0 +1,117 @@
+#korean {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#english {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#k {
+    font-weight: 700;
+}
+.lang {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.lang p {
+    font-size:13px;
+}
+.lang .slash {
+    margin: 0 6px;
+}
+.lang .but:hover {
+    cursor: pointer;
+}
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+    color: rgb(43, 43, 43);
+}
+html {
+    background:rgb(250, 250, 250);
+    overflow-x: hidden;
+}
+.wrap {
+    padding: 40px;
+    max-width: 800px;
+}
+.wrap a {
+    text-decoration:underline;
+}
+.wrap h2 {
+    text-align: center;
+}
+li {
+    margin-left: 40px;
+    //text-indent: -24px;
+}
+#top {
+    max-width: 400px;
+    padding: 40px;
+    padding-bottom: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top img {
+    width: 220px;
+}
+#top div h1 {
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+.social a img {
+    height: 20px;
+    padding: 4px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.social {
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    #top img {width:140px}
+}
+button {
+    background: black;
+    border:none;
+    color:white;
+    padding:8px 15px;
+    font-weight:bold;
+    margin: 5px 0;
+}
+input {
+    padding:8px 10px;
+    margin:5px 0;
+    border:1px solid black;
+    max-width:140px;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text {
+    font-weight: bold;
+    padding-right: 20px;
+}
+.text p {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
