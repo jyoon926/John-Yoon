@@ -41,6 +41,7 @@ section .text {
 
 section .text p {
   line-height: 1.25;
+  padding-bottom: 22px;
 }
 
 section .text a {

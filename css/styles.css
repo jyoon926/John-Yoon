@@ -34,6 +34,10 @@ body {
           align-items: center;
 }
 
+body a:hover {
+  text-decoration: underline;
+}
+
 .button {
   background: black;
   color: white;
@@ -126,8 +130,8 @@ body {
 }
 
 #header .links a .dot {
-  position: absolute;
-  margin-top: 17px;
+  position: relative;
+  top: 4px;
   height: 5px;
   width: 5px;
   background: #000;
@@ -139,6 +143,10 @@ body {
 
 #header .links a:hover .dot {
   opacity: 1;
+}
+
+#header .links a:hover {
+  text-decoration: none;
 }
 
 #header .links .selected {
