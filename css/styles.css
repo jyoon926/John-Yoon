@@ -108,6 +108,7 @@ body a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 550px;
+  margin-top: 20px;
   margin-right: 60px;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
