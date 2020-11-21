@@ -65,6 +65,7 @@ section .description p {
 
 section .description a {
   margin-top: 20px;
+  font-weight: bold;
 }
 
 section .description .player {
